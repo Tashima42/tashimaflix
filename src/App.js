@@ -12,7 +12,7 @@ function App() {
         <BannerMain 
           videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
           url={dadosIniciais.categorias[0].videos[0].url}
-          videoDescription={"A esquizofrenia de Maicon Küster chegando em nívei inimagináveis pela ciência moderna"}
+          videoDescription={"A esquizofrenia de Maicon Küster chegando em níveis inimagináveis pela ciência moderna"}
         />
 
         <Carousel
