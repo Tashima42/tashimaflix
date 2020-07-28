@@ -41,7 +41,14 @@ export const VideoCardList = styled.ul`
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  
+  /*Hide scrollbar in Chrome, Safari and Opera*/
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  /*Hide scrollbar in IE, Edge and Firefox*/
+  -ms-overflow-style:none;
+  scrollbar-width: none;
+
   li {
     margin-right: 16px;
   }
