@@ -32,6 +32,7 @@ function Home() {
           category={dadosIniciais.categorias[3]}
         /> 
         <Footer />
+        <videoAPI></videoAPI>
     </div>
   );
 }
