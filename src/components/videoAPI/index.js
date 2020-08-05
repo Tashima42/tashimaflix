@@ -28,4 +28,4 @@ export default class videList extends React.Component {
             </ul>
         )
     }
-}
+} 
